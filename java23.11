@@ -1,0 +1,13 @@
+package com.epam.test
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	BufferedReader bufferedReader = new bufferedReader(new InputStreamREader(System.in));
+
+	System.out.orintln("HEllo ! What is your name?");
+	String name = bufferedReader.readLine();
+
+	}
+}
