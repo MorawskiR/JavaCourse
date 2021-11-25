@@ -13,5 +13,10 @@ public class Main {
 	System.out.orintln("HEllo ! What is your name?");
 	String name = bufferedReader.readLine();
 
+    System.out.println("Old ?");
+    int age = Integer.parseInt(bufferedReader.readLine());
+    
+    System.out.println("name : " + name);
+    System.out.println("name : " + age);
 	}
 }
